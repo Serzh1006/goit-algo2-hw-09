@@ -67,7 +67,6 @@ def simulated_annealing(
                 break
             current, current_value = candidate, candidate_value
 
-        # Охолодження
         temp *= cooling_rate
 
     return current, current_value
